@@ -8,7 +8,8 @@
   --surface-2: #17171e;
   --line: #282832;
   --text: #f7f6fb;
-  --muted: #9b99a8;
+  --muted: #b2afbd;
+  --muted-surface: var(--surface-2);
   --accent: #a99cff;
   --accent-2: #7265e8;
   --good: #6fd5a6;
@@ -24,7 +25,6 @@
   --primary-foreground: #0d0b17;
   --secondary: var(--surface-2);
   --secondary-foreground: var(--text);
-  --muted: var(--surface-2);
   --muted-foreground: var(--muted);
   --accent-foreground: #0d0b17;
   --destructive: var(--danger);
@@ -44,7 +44,7 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
+  --color-muted: var(--muted-surface);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
